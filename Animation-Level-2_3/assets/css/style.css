@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+img {
+  width: 300px;
+  animation: dancer 3s 1s infinite alternate;
+}
+
+@keyframes dancer {
+  0% {
+    box-shadow: 0 0 30px white;
+  }
+
+  30% {
+    box-shadow: 2px 2px 20px green;
+  }
+  40% {
+    box-shadow: -2px -2px 20px rgb(12, 156, 252);
+  }
+  50% {
+    box-shadow: 2px 2px 20px green;
+  }
+  60% {
+    box-shadow: -2px -2px 20px rgb(12, 156, 252);
+  }
+  100% {
+    box-shadow: 0 0 30px white;
+  }
+}
