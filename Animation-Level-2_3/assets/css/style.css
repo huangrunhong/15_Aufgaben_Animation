@@ -21,18 +21,17 @@ img {
     box-shadow: 0 0 30px white;
   }
 
-  30% {
-    box-shadow: 2px 2px 20px green;
+  25% {
+    box-shadow: 5px 5px 30px green, -5px -5px 30px rgb(12, 156, 252);
   }
-  40% {
-    box-shadow: -2px -2px 20px rgb(12, 156, 252);
+
+  500% {
+    box-shadow: 0 0 30px white;
   }
-  50% {
-    box-shadow: 2px 2px 20px green;
+  75% {
+    box-shadow: 5px 5px 30px green, -5px -5px 30px rgb(12, 156, 252);
   }
-  60% {
-    box-shadow: -2px -2px 20px rgb(12, 156, 252);
-  }
+
   100% {
     box-shadow: 0 0 30px white;
   }
